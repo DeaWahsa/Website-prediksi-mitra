@@ -1,0 +1,16 @@
+    /* Ini adalah gaya untuk sidebar */
+.SideMenu {
+    width: 250px;  
+    background-color: #FF0000; 
+    overflow-y: auto; 
+    display: flex;
+    height: 180vh;
+    
+  }
+  
+  /* Ini adalah gaya untuk konten utama */
+  .mainContent {
+    flex: 1;
+    /* tambahkan gaya lain yang Anda inginkan untuk konten utama */
+  }
+  

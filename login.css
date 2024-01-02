@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container1 {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(245, 118, 118, 0.8), rgba(245, 118, 118, 0.8)), url('/public/background.jpg'); /* Ganti dengan path yang sesuai */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: 0px !important;
+}
+
+.form-box {
+    width: 90%;
+    max-width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px 60px;
+    text-align: center;
+    height: auto;
+}
+
+.form-box h1 {
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #f31408;
+    position: relative;
+}
+
+.form-box h1::after {
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #f31408;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.input-field {
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+.input-field .svg-inline--fa {
+    margin-left: 10px;
+  }
+
+input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+
+.input-field i {
+    margin-left: 15px;
+    color: #999;
+}
+
+form p {
+    text-align: left;
+    font-size: 13px;
+}
+
+form p a {
+    text-decoration: none;
+    color: #3c00a0;
+}
+
+.btn-field {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Mengubah ini agar tombol berada di tengah */
+    align-items: center; /* Vertically center the button if needed */
+  }  
+
+.btn-field button {
+    flex-basis: 48%;
+    background: #f31408;
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+    margin-bottom: 60px;
+}
+
+  
+.input-group {
+    height: 260px;
+}
+
+.btn-field button.disable {
+    background: #eaeaea;
+    color: #555;
+}
+
+/* Gaya tombol Sign Up */
+#signUpBtn {
+    margin-top: 60px;
+    background: #f31408;
+    color: #fff; /* Warna teks */
+    padding: 10px 20px; /* Ruang dalam tombol */
+    border: 0; /* Tanpa garis pinggir */
+    border-radius: 20px;
+    outline: 0;
+    cursor: pointer; /* Kursor berubah saat mengarahkan mouse ke tombol */
+    width: 130px; /* Lebar tombol dalam piksel */
+  }
+  
+  /* Gaya tombol Sign Up saat dihover */
+  #signUpBtn:hover {
+    background-color: #f53025; /* Warna latar belakang saat dihover */
+  }
+  

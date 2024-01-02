@@ -1,0 +1,133 @@
+/* Reset margin dan padding pada elemen body */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Tetapkan width dan height 100% pada elemen .App */
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; /* Menghindari overflow */
+}
+
+/* Style for the AppHeader container */
+.AppHeader {
+  height: 80px; /* Tinggi header */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  background: linear-gradient(to right, #ccc 0%, #ff0000 50%, #ccc 100%);
+  color: #fff; /* Warna teks */
+}
+
+/* Style for the left-header container (gambar dan judul) */
+.left-header {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the logo image */
+.AppHeader img {
+  max-width: 100px; /* Lebar maksimum logo */
+  height: auto;
+}
+
+/* Style for the title (judul) */
+.AppHeader .ant-typography {
+  font-size: 24px; /* Ukuran font judul */
+  font-weight: bold; /* Teks tebal */
+  margin-left: 20px; /* Jarak antara logo dan judul */
+}
+
+/* Style for the login button */
+.right-header {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.right-header .ant-btn-primary {
+  margin-left: 100px; /* Jarak antara judul dan tombol login */
+}
+
+/* Style for the file upload button */
+.file-upload-container-button {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the file upload button */
+.file-upload-container-button .ant-btn-primary {
+  margin-left: 130px; /* Jarak antara judul dan tombol "Unggah" */
+}
+
+h1.ant-typography.css-dev-only-do-not-override-k83k30 {
+  text-align: center;
+  width: 100%;
+}
+
+.AppFooter {
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.SideMenuAndPageContent {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.05);
+  overflow: auto;
+}
+
+.SideMenu {
+  height: 100%;
+}
+
+/* Style for the vertical Menu component */
+.SideMenuVertical {
+  width: 250px;
+  background-color: #f31408; /* Warna latar belakang komponen vertikal */
+  color: rgb(7, 7, 7); /* Warna teks */
+  padding: 20px; /* Padding komponen vertikal */
+}
+
+/* Style for the menu items */
+.ant-menu-item {
+  margin: 0; /* Hapus margin default */
+  padding: 0px 0; /* Padding atas dan bawah untuk setiap item */
+  font-size: 16px; /* Ukuran font untuk item */
+  transition: background-color 0.3s ease; /* Transisi latar belakang saat dihover */
+}
+
+/* Style for the selected menu item */
+.ant-menu-item-selected {
+  background-color: #ff0000; /* Warna latar belakang item yang dipilih */
+  color: #fff; /* Warna teks item yang dipilih */
+  font-weight: bold; /* Teks tebal untuk item yang dipilih */
+}
+
+.SideMenuVertical {
+  height: 100%;
+}
+
+.PageContent {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+  
+  

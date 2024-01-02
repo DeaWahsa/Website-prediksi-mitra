@@ -1,0 +1,107 @@
+.dashboard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  flex: 1;  
+  overflow-y: auto; 
+  min-height: 130vh;
+}
+
+
+.download-section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;  /* This aligns the content to the far left */
+  width: 60%;
+  gap: 10px;  /* This provides spacing between the h2 and button */
+  padding-left: 20px;  /* This ensures no padding on the left side */
+  border: none;           /* Remove borders */
+  background-color: #FF0000;  /* Set a background color */
+  padding: 10px 20px;     /* Add some padding */
+  border-radius: 5px;     /* Make the edges rounded */
+  cursor: pointer;        /* Show a hand cursor on hover */
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.download-section h2{
+  font-size: 18px;
+  margin-top: 10px;
+
+}
+
+.download-section button {
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 14px;
+  padding: 0px 5px;
+  background-color: #f59d9d;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;  /* This adds a transition effect for button hover */
+}
+
+.download-section button:hover {
+  background-color: #d40909;  /* This changes the button color slightly when hovered */
+}
+
+.file-upload-container {
+  margin-top: 50px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.file-upload-container h2{
+  font-size: 18px;
+}
+
+.container {
+  display: flex;
+}
+
+.upload-box {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.file-upload-label {
+  background-color: #ff4a4a;
+  color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.file-upload-label input[type="file"] {
+  display: none;
+}
+
+.selected-file-name {
+  margin-top: 10px;
+}
+
+.upload-btn {
+  margin-top: 40px;
+  background-color: #ff4a4a;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+

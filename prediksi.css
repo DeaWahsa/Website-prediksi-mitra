@@ -1,0 +1,114 @@
+/* prediksi.css */
+
+.prediksi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.mitra-button button{
+  margin-bottom: 45px;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  background-color: #FF0000;
+  border: none;           /* Remove borders */
+  padding: 10px 20px;     /* Add some padding */
+  border-radius: 5px;     /* Make the edges rounded */
+  cursor: pointer;        /* Show a hand cursor on hover */
+  transition: background-color 0.3s;
+}
+
+.mitra-button button:hover {
+  background-color: #0d54ed;  /* This changes the button color slightly when hovered */
+}
+
+.prediksi h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.prediksi > div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+p {
+  color: #666;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.mitra {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 8px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px #aaa;
+  width: 200px; 
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+
+.prediksi .mitra h2 {
+  font-size: 15px; /* Ukuran font untuk label komponen Mitra */
+  color: black;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.modal-title {
+  margin: 0;
+  font-size: 16px;
+  flex-grow: 1;
+}
+
+.prediksi .year-selector {
+  display: flex; /* Menggunakan flexbox */
+  align-items: center; /* Menyelaraskan item-item secara vertikal di tengah */
+  justify-content: flex-start; /* Menempatkan konten di awal (kiri) */
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.year-selector label {
+  margin-right: 10px; /* Menambahkan jarak antara label dan dropdown */
+  font-size: 15px;
+}
+
+.year-selector select {
+  width: 106px;
+  height: 30px;
+  border: 1px solid #ccc; /* Membuat border berwarna abu-abu */
+  border-radius: 4px; /* Membuat sudut dropdown bulat */
+  font-size: 13px; /* Ukuran font dalam dropdown */
+  margin-left: 20px;
+  margin-top: -4px;
+}
+
+.prediksi p{
+  margin-bottom: 25px;
+  font-weight: bold;
+  color: #333;
+  font-size: 20px;
+}
+
+
+
